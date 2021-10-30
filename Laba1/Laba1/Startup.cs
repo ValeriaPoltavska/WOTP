@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Services.Email_service;
+using Microsoft.Extensions.Logging;
 
 namespace Laba1
 {
@@ -26,11 +27,13 @@ namespace Laba1
         {
             services.AddControllersWithViews();
             services.AddTransient<IEmailSender, EmailSender>();
+            services.AddHttpContextAccessor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
+            loggerFactory.AddFile(Configuration.GetSection("Logging"));
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
