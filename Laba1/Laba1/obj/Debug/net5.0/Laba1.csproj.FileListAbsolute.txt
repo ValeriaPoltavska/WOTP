@@ -1081,3 +1081,4 @@ C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.dl
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\ref\Laba1.dll
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.pdb
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.genruntimeconfig.cache
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Razor\Views\File\UploadFile.cshtml.g.cs
