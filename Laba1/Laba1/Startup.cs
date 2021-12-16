@@ -10,6 +10,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Services.Email_service;
 using Microsoft.Extensions.Logging;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
 
 namespace Laba1
 {
@@ -28,6 +30,26 @@ namespace Laba1
             services.AddControllersWithViews();
             services.AddTransient<IEmailSender, EmailSender>();
             services.AddHttpContextAccessor();
+
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
+
+            services.AddControllersWithViews()
+                    .AddDataAnnotationsLocalization()
+                    .AddViewLocalization();// добавляем локализацию представлений;
+           
+            services.Configure<RequestLocalizationOptions>(options =>
+            {
+                var supportedCultures = new[]
+                {
+                new CultureInfo("en-US"),
+                new CultureInfo("uk-UA")
+                };
+
+                options.DefaultRequestCulture = new RequestCulture(culture:"en-US", uiCulture: "en-US");
+                options.SupportedCultures = supportedCultures;
+                options.SupportedUICultures = supportedCultures;
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,13 +66,12 @@ namespace Laba1
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseRequestLocalization();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

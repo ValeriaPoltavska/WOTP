@@ -1082,3 +1082,13 @@ C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\ref\Laba
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.pdb
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.genruntimeconfig.cache
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Razor\Views\File\UploadFile.cshtml.g.cs
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.csproj.GenerateResource.cache
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Razor\Views\Shared\_SelectLanguagePartial.cshtml.g.cs
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\bin\Debug\net5.0\en-US\Laba1.resources.dll
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\bin\Debug\net5.0\uk-UA\Laba1.resources.dll
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.Resources.Controllers.FileController.en-US.resources
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.Resources.Controllers.FileController.uk-UA.resources
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.Resources.Views.File.UploadFile.en-US.resources
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.Resources.Views.File.UploadFile.uk-UA.resources
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\en-US\Laba1.resources.dll
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\uk-UA\Laba1.resources.dll

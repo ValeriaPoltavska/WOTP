@@ -324,6 +324,17 @@
         "runtime": {
           "Laba1.dll": {}
         },
+        "resources": {
+          "ru/Laba1.resources.dll": {
+            "locale": "ru"
+          },
+          "en/Laba1.resources.dll": {
+            "locale": "en"
+          },
+          "uk/Laba1.resources.dll": {
+            "locale": "uk"
+          }
+        },
         "compile": {
           "Laba1.dll": {}
         }
