@@ -1092,3 +1092,5 @@ C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.Re
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Laba1.Resources.Views.File.UploadFile.uk-UA.resources
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\en-US\Laba1.resources.dll
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\uk-UA\Laba1.resources.dll
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Razor\Views\Shared\_TopbarPartial.cshtml.g.cs
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Razor\Views\Shared\Components\Topbar\Default.cshtml.g.cs

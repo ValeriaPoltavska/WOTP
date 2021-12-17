@@ -325,14 +325,11 @@
           "Laba1.dll": {}
         },
         "resources": {
-          "ru/Laba1.resources.dll": {
-            "locale": "ru"
+          "en-US/Laba1.resources.dll": {
+            "locale": "en-US"
           },
-          "en/Laba1.resources.dll": {
-            "locale": "en"
-          },
-          "uk/Laba1.resources.dll": {
-            "locale": "uk"
+          "uk-UA/Laba1.resources.dll": {
+            "locale": "uk-UA"
           }
         },
         "compile": {
