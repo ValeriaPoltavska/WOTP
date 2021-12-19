@@ -1094,3 +1094,7 @@ C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\en-US\La
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\uk-UA\Laba1.resources.dll
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Razor\Views\Shared\_TopbarPartial.cshtml.g.cs
 C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Razor\Views\Shared\Components\Topbar\Default.cshtml.g.cs
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\VnElite\Documents\GitHub\WOTPlabs\Laba1\Laba1\obj\Debug\net5.0\Razor\Views\Contact\ContactUs.cshtml.g.cs

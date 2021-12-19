@@ -12,6 +12,7 @@ using Services.Email_service;
 using Microsoft.Extensions.Logging;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
+using FluentValidation.AspNetCore;
 
 namespace Laba1
 {
@@ -35,7 +36,10 @@ namespace Laba1
 
             services.AddControllersWithViews()
                     .AddDataAnnotationsLocalization()
-                    .AddViewLocalization();// добавляем локализацию представлений;
+                    .AddViewLocalization()// добавляем локализацию представлений;
+                    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>());
+
+
            
             services.Configure<RequestLocalizationOptions>(options =>
             {
